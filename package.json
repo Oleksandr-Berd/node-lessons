@@ -1,11 +1,22 @@
 {
-  "name": "node-lessons",
-  "version": "0.0.0",
-  "private": true,
+  "name": "lessons",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=production node ./server.js",
-    "start:dev": "cross-env NODE_ENV=development nodemon ./server.js",
-    "lint": "eslint **/*.js",
-    "lint:fix": "eslint --fix **/*.js"
-  }
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oleksandr-Berd/node-lessons.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oleksandr-Berd/node-lessons/issues"
+  },
+  "homepage": "https://github.com/Oleksandr-Berd/node-lessons#readme"
 }
